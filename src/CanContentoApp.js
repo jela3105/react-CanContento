@@ -1,10 +1,6 @@
 import React from "react";
+import { AppRouter } from "./routers/AppRouter";
 
 export const CanContentoApp = () => {
-  return (
-    <>
-      <h1>Hello world</h1>
-      This is Main page
-    </>
-  );
+  return <AppRouter />;
 };
