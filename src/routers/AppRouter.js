@@ -8,7 +8,12 @@ export const AppRouter = () => {
     <Router>
       <div>
         <Switch>
-          <PublicRoute isAuthenticated={false} component={Navbar} />
+          <PublicRoute
+            path="/"
+            exact
+            isAuthenticated={false}
+            component={Navbar}
+          />
         </Switch>
       </div>
     </Router>

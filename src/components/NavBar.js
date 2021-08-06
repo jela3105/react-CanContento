@@ -4,22 +4,22 @@ export const Navbar = (props) => {
   return (
     <header>
       <nav>
-        <div class="nav-wrapper red">
-          <a href="#" class="brand-logo">
+        <div className="nav-wrapper red">
+          <a href="/" className="brand-logo">
             CanContento
           </a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-            <i class="material-icons">menu</i>
+          <a href="/" data-target="mobile-demo" className="sidenav-trigger">
+            <i className="material-icons">menu</i>
           </a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li class="active">
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <li className="active">
               <a href="index.html">Inicio</a>
             </li>
             <li>
               <a href="servicios.html">Servicios</a>
             </li>
             <li>
-              <a href="#iniciar-sesion" class="modal-trigger">
+              <a href="#iniciar-sesion" className="modal-trigger">
                 Iniciar Sesión
               </a>
             </li>
@@ -27,15 +27,15 @@ export const Navbar = (props) => {
         </div>
       </nav>
 
-      <ul class="sidenav" id="mobile-demo">
-        <li class="active">
+      <ul className="sidenav" id="mobile-demo">
+        <li className="active">
           <a href="index.html">Inicio</a>
         </li>
         <li>
           <a href="servicios.html">Servicios</a>
         </li>
         <li>
-          <a href="#iniciar-sesion" class="modal-trigger">
+          <a href="#iniciar-sesion" className="modal-trigger">
             Iniciar Sesión
           </a>
         </li>
