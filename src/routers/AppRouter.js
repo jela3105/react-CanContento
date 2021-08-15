@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { PublicRoute } from "../routers/PublicRoute";
-import { Navbar } from "../components/NavBar";
+import { DashboardRoutes } from "./DashboardRoutes";
 
 export const AppRouter = () => {
   return (
@@ -12,7 +12,7 @@ export const AppRouter = () => {
             path="/"
             exact
             isAuthenticated={false}
-            component={Navbar}
+            component={DashboardRoutes}
           />
         </Switch>
       </div>
